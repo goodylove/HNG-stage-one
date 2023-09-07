@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+body {
+  background-color: #020510;
+}
+
+/* nav bar style starts here */
+.nav-bar {
+  display: flex;
+  padding: 10px;
+  box-shadow: inset;
+  border-bottom: 1px solid blue;
+}
+.nav-bar img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.nav-bar h2 {
+  color: white;
+}
+.nav-bar .profile {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+}
+/* nav bar style  ends here */
+
+.section-one {
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+}
+.section-one div {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+.section-one div a {
+  color: white;
+}

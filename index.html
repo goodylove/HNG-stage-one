@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HNG STAGE ONE TASK</title>
+    <meta name="description" content="HNG stage one Task" />
+    <meta name="author" content="Nwachukwu Goodness" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    <!-- nav starts here -->
+    <nav class="nav-bar">
       <div class="profile">
         <img
           src="./image/myprofileimg.jfif"
@@ -15,24 +19,32 @@
         />
         <h2 data-testid="slackUserName">Nwachukwu Goodness</h2>
       </div>
-      <div class="">
-        <a href="https://github.com/goodylove" data-testid="githubURL"
-          >GitHub Repository</a
-        >
-      </div>
     </nav>
+    <!-- nav ends here -->
     <main>
+      <section class="section-one">
+        <div class="github">
+          <a href="https://github.com/goodylove" data-testid="githubURL"
+            >GitHub Repository</a
+          >
+        </div>
+      </section>
       <section>
-        <h2>Day of the Week</h2>
+      <div class="container">
+        h2>Day of the Week</h2>
         <p data-testid="currentDayOfTheWeek">Thursday</p>
-      </section>
-      <section>
-        <h2>UTC Time</h2>
-        <p data-testid="currentUTCTime" id="time"></p>
-      </section>
-      <section>
-        <h2>Track</h2>
+
+      </div>
+
+       <div class="container">
+         <h2>UTC Time</h2>
+        <p data-testid="currentUTCTime"></p>
+       </div>
+
+        <div class="container">
+          <h2>Track</h2>
         <p data-testid="myTrack">Frontend</p>
+        </div>
       </section>
     </main>
     <script src="app.js"></script>
